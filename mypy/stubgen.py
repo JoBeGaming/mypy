@@ -37,6 +37,7 @@ TODO:
    - a quick and dirty heuristic would be to turn this on if a module has something like
      'from x import y as _y'
  - we don't seem to always detect properties ('closed' in 'io', for example)
+ - Sometimes, it seems like TypeVars used are not defined (e.g. for Generic Classes?!)
 """
 
 from __future__ import annotations
